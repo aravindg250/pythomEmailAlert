@@ -12,7 +12,7 @@ def email_alert(subject, body, to):
     msg.set_content(body)
     msg["subject"] = subject
     msg["to"] = to
-    msg["from"] = "Pheda P"
+    msg["from"] = "Name of User"
     #Name of User is the name of the sender that you want to display
 
     user = data["email"] #Data from config.json
@@ -29,7 +29,7 @@ def email_alert(subject, body, to):
     
 for i in range(10): #Change 1 to the number of emails you want to recieve
     if __name__ == "__main__":
-        email_alert("Hello Habibi", "YOU HAVE BEEN ACCEPTED INTO MIT. Please respond to get a scholorship", "7329156394@tmomail.net")
+        email_alert("Subject of Email", "Body Of Email", "Email of Receiver")
         time.sleep(0) #Number of seconds after each email.
 
 
