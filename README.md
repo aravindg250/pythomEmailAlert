@@ -21,7 +21,7 @@
 <img height=250px src=img/step5.png>
 
 ##### 6. Click Select App and give it a custom name
-Ex. Python Email Alerts
+##### Ex. Python Email Alerts
 <img height=250px src=img/step6.png>
 
 ##### 7. Click Generate and copy the app password.
