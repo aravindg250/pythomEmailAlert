@@ -7,5 +7,5 @@
 ## How To Run Program
 ##### 1. Go to https://accounts.google.com/
 ##### this is a test 
- <img height=500px src=img/step1.png>
+ <img height=250px src=img/step1.png>
 
