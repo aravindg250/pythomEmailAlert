@@ -31,9 +31,11 @@ for i in range(10):
         email_alert("Subject of Email", "Body of Email", "Email of Reciever")
 
 
-#verizon
+#Verizon
 #<10-digit-number>@vtext.com
 
 #T-Mobile
 #<10-digit-number>@tmomail.com
+
+
 
