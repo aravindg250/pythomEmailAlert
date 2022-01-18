@@ -1,4 +1,4 @@
-# Python-Email-Alert
+# Python Email Alert
 ##### This program was built so that when run, it will send an email to the specified address in the program. 
 
 ## How I built this?
