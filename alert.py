@@ -12,7 +12,7 @@ def email_alert(subject, body, to):
     msg.set_content(body)
     msg["subject"] = subject
     msg["to"] = to
-    msg["from"] = "Name of Sender"
+    msg["from"] = "Name of User"
     #Name of User is the name of the sender that you want to display
 
     user = data["email"] #Data from config.json
