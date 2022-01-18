@@ -18,9 +18,9 @@
 ```json
 {"email": "Your Email", "password": "Your Password"}
 ```
-###### 5. Replace all the other information in the program and run it.
+##### 5. Replace all the other information in the program and run it.
 
-###### 6. Have fun!
+##### 6. Have fun!
 
 # Improvements for the Future
 ##### In the future I hope to be able to add a timer so that you can schedule an email to be sent. This will make is easier for users to send emails without having to wait. I also hope to expand it to all email providers such as Yahoo! and Outlook.
