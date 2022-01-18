@@ -26,7 +26,7 @@ def email_alert(subject, body, to):
     server.send_message(msg)
     server.quit()
     f.close()
-for i in range(10):
+for i in range(1):
     if __name__ == "__main__":
         email_alert("Subject of Email", "Body of Email", "Email of Reciever")
 

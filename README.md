@@ -1,6 +1,5 @@
-# Python Email Alert
-##### This program was built so that when run, it will send an email to the specified address in the program. 
-
+# Python-Email-Alert
+##### This program was built so that when run, it will send an email to the specified address in the program. It can also be used to send SMS messages to phone numbers. Carrier rates may apply and messages may be delayed. T-Mobile, as far as testing goes, has had the fastest results in receiving messages.
 ## How I built this?
 ##### This program was built with Python and SMTP Library. 
 
@@ -18,3 +17,9 @@
 ```json
 {"email": "Your Email", "password": "Your Password"}
 ```
+###### 5. Replace all the other information in the program and run it.
+
+###### 6. Have fun!
+
+## Improvements for the Future
+##### In the future I hope to be able to add a timer so that you can schedule an email to be sent. This will make is easier for users to send emails without having to wait.
