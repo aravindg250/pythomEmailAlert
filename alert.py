@@ -1,6 +1,6 @@
 import smtplib
 from email.message import EmailMessage
-
+import time
 import json
 import os
 
@@ -15,8 +15,8 @@ def email_alert(subject, body, to):
     msg["from"] = "Name of Sender"
     #Name of User is the name of the sender that you want to display
 
-    user = data["email"]
-    password = data["password"]
+    user = data["email"] #Data from config.json
+    password = data["password"] #Data from config.json
 
 
     server = smtplib.SMTP("smtp.gmail.com", 587)
@@ -26,9 +26,11 @@ def email_alert(subject, body, to):
     server.send_message(msg)
     server.quit()
     f.close()
-for i in range(1):
+    
+for i in range(1): #Change 1 to the number of emails you want to recieve
     if __name__ == "__main__":
         email_alert("Subject of Email", "Body of Email", "Email of Reciever")
+        time.sleep(0) #Number of seconds after each email.
 
 
 #Verizon
