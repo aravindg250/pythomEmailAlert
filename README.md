@@ -6,5 +6,6 @@
 
 ## How To Run Program
 ##### 1. Go to https://accounts.google.com/
-##### this is a test  (https://github.com/aravindg250/Python-Email-Alert/blob/main/img/step1.png)
+##### this is a test 
+ <img height=50px src=https://github.com/aravindg250/Python-Email-Alert/blob/main/img/step1.png >
 
