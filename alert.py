@@ -37,5 +37,10 @@ for i in range(10):
 #T-Mobile
 #<10-digit-number>@tmomail.com
 
+#AT&T
+#<10-digit-number>@txt.att.net
+
+#Sprint
+#<10-digit-number>@messaging.sprintpcs.com
 
 
